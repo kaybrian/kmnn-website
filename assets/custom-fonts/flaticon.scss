@@ -1,0 +1,57 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?ceb8a45ffbdfa63636260051d3f99f1a") format("truetype"),
+url("./flaticon.woff?ceb8a45ffbdfa63636260051d3f99f1a") format("woff"),
+url("./flaticon.woff2?ceb8a45ffbdfa63636260051d3f99f1a") format("woff2"),
+url("./flaticon.eot?ceb8a45ffbdfa63636260051d3f99f1a#iefix") format("embedded-opentype"),
+url("./flaticon.svg?ceb8a45ffbdfa63636260051d3f99f1a#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "right-arrow-angle": "\f101",
+    "loan": "\f102",
+    "architect": "\f103",
+    "payment-method": "\f104",
+    "land": "\f105",
+    "left-arrow": "\f106",
+    "auction": "\f107",
+    "office-building": "\f108",
+);
+
+.flaticon-right-arrow-angle:before {
+    content: map-get($flaticon-map, "right-arrow-angle");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-architect:before {
+    content: map-get($flaticon-map, "architect");
+}
+.flaticon-payment-method:before {
+    content: map-get($flaticon-map, "payment-method");
+}
+.flaticon-land:before {
+    content: map-get($flaticon-map, "land");
+}
+.flaticon-left-arrow:before {
+    content: map-get($flaticon-map, "left-arrow");
+}
+.flaticon-auction:before {
+    content: map-get($flaticon-map, "auction");
+}
+.flaticon-office-building:before {
+    content: map-get($flaticon-map, "office-building");
+}
