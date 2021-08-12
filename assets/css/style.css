@@ -400,6 +400,9 @@ img {
 .section-title {
   margin-bottom: 1.25pc;
 }
+.howtocharge{
+  list-style:disc;
+}
 
 .section-title > span,
 .section-title-s3 > span {
