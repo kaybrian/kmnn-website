@@ -1,155 +1,156 @@
 @font-face {
-    font-family: "flaticon";
-    src: url("flaticonb036.ttf?0d73a411b04d75a0d6bd4595fe93635a") format("truetype"),
-url("flaticonb036.woff?0d73a411b04d75a0d6bd4595fe93635a") format("woff"),
-url("flaticonb036.woff2?0d73a411b04d75a0d6bd4595fe93635a") format("woff2"),
-url("flaticonb036.eot?0d73a411b04d75a0d6bd4595fe93635a#iefix") format("embedded-opentype"),
-url("flaticonb036.svg?0d73a411b04d75a0d6bd4595fe93635a#flaticon") format("svg");
+  font-family: "flaticon";
+  src: url("flaticonb036.ttf?0d73a411b04d75a0d6bd4595fe93635a")
+      format("truetype"),
+    url("flaticonb036.woff?0d73a411b04d75a0d6bd4595fe93635a") format("woff"),
+    url("flaticonb036.woff2?0d73a411b04d75a0d6bd4595fe93635a") format("woff2"),
+    url("flaticonb036.eot?0d73a411b04d75a0d6bd4595fe93635a#iefix")
+      format("embedded-opentype"),
+    url("flaticonb036.svg?0d73a411b04d75a0d6bd4595fe93635a#flaticon")
+      format("svg");
 }
 
-i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
-    font-family: flaticon !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+i[class^="flaticon-"]:before,
+i[class*=" flaticon-"]:before {
+  font-family: flaticon !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .flaticon-wounded:before {
-    content: "\f101";
+  content: "\f101";
 }
 .flaticon-cyber-attack:before {
-    content: "\f102";
+  content: "\f102";
 }
 .flaticon-man:before {
-    content: "\f103";
+  content: "\f103";
 }
 .flaticon-next:before {
-    content: "\f104";
+  content: "\f104";
 }
 .flaticon-left-chevron:before {
-    content: "\f105";
+  content: "\f105";
 }
 .flaticon-pointer-inside-a-circle:before {
-    content: "\f106";
+  content: "\f106";
 }
 .flaticon-play-button:before {
-    content: "\f107";
+  content: "\f107";
 }
 .flaticon-play:before {
-    content: "\f108";
+  content: "\f108";
 }
 .flaticon-play-button-1:before {
-    content: "\f109";
+  content: "\f109";
 }
 .flaticon-law-book:before {
-    content: "\f10a";
+  content: "\f10a";
 }
 .flaticon-auction:before {
-    content: "\f10b";
+  content: "\f10b";
 }
 .flaticon-law:before {
-    content: "\f10c";
+  content: "\f10c";
 }
 .flaticon-courthouse:before {
-    content: "\f10d";
+  content: "\f10d";
 }
 .flaticon-bank:before {
-    content: "\f10e";
+  content: "\f10e";
 }
 .flaticon-legal-document:before {
-    content: "\f10f";
+  content: "\f10f";
 }
 .flaticon-legal-paper:before {
-    content: "\f110";
+  content: "\f110";
 }
 .flaticon-legal:before {
-    content: "\f111";
+  content: "\f111";
 }
 .flaticon-graduation-cap:before {
-    content: "\f112";
+  content: "\f112";
 }
 .flaticon-balance:before {
-    content: "\f113";
+  content: "\f113";
 }
 .flaticon-trophy:before {
-    content: "\f114";
+  content: "\f114";
 }
 .flaticon-balance-1:before {
-    content: "\f115";
+  content: "\f115";
 }
 .flaticon-medal:before {
-    content: "\f116";
+  content: "\f116";
 }
 .flaticon-trophy-1:before {
-    content: "\f117";
+  content: "\f117";
 }
 .flaticon-judge:before {
-    content: "\f118";
+  content: "\f118";
 }
 .flaticon-judge-1:before {
-    content: "\f119";
+  content: "\f119";
 }
 .flaticon-judge-2:before {
-    content: "\f11a";
+  content: "\f11a";
 }
 .flaticon-courthouse-1:before {
-    content: "\f11b";
+  content: "\f11b";
 }
 .flaticon-courthouse-2:before {
-    content: "\f11c";
+  content: "\f11c";
 }
 .flaticon-judge-3:before {
-    content: "\f11d";
+  content: "\f11d";
 }
 .flaticon-judge-with-hammer:before {
-    content: "\f11e";
+  content: "\f11e";
 }
 .flaticon-judge-4:before {
-    content: "\f11f";
+  content: "\f11f";
 }
 .flaticon-user:before {
-    content: "\f120";
+  content: "\f120";
 }
 .flaticon-share:before {
-    content: "\f121";
+  content: "\f121";
 }
 .flaticon-calendar:before {
-    content: "\f122";
+  content: "\f122";
 }
 .flaticon-user-1:before {
-    content: "\f123";
+  content: "\f123";
 }
 .flaticon-paper-plane:before {
-    content: "\f124";
+  content: "\f124";
 }
 .flaticon-home:before {
-    content: "\f125";
+  content: "\f125";
 }
 .flaticon-email:before {
-    content: "\f126";
+  content: "\f126";
 }
 .flaticon-support:before {
-    content: "\f127";
+  content: "\f127";
 }
 .flaticon-alarm-clock:before {
-    content: "\f128";
+  content: "\f128";
 }
 .flaticon-call:before {
-    content: "\f129";
+  content: "\f129";
 }
 .flaticon-phone-call:before {
-    content: "\f12a";
+  content: "\f12a";
 }
 .flaticon-mobile-phone-auricular-part-outline-with-call-sound-lines:before {
-    content: "\f12b";
+  content: "\f12b";
 }
 .flaticon-jail:before {
-    content: "\f12c";
-}
-.flaticon-handcuffs:before {
-    content: "\f12d";
+  content: "\f12c";
 }
