@@ -835,7 +835,16 @@ color: var(--base-color);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: url("../images/page-title.jpg") center center/cover no-repeat local;
+    background: url("../images/hero-image-2.jpg") center center/cover no-repeat local;
+    filter: grayscale(50%);
+}
+.services-page{
+    background: url("../images/services-image.jpg") center center/cover no-repeat local;
+    filter: grayscale(50%);
+}
+.contact-page{
+    background: url("../images/contact-image.jpg") center center/cover no-repeat local;
+    filter: grayscale(10%);
 }
 @media (max-width: 991px) {
     .page-title {
@@ -871,6 +880,7 @@ color: var(--base-color);
 .page-title ol,
 .page-title h2 {
     color: #fff;
+    letter-spacing: 5px;
 }
 .page-title h2 {
     font-size: 3.75rem;
@@ -2009,9 +2019,8 @@ color: var(--base-color);
     .header-style-1 .navigation #navbar > ul > li > a:before {
         opacity: 0;
         content: "";
-        background: var(--base-color);
+        border-bottom: 3px solid var(--base-color);
         height: 2.6875pc;
-        border-radius:5px;
         top: calc(50% - 21px);
         z-index: -1;
         -ms-transition: all 0.3s;
@@ -6657,6 +6666,7 @@ blog-section-s2
 }
 .contact-page-section-bg {
     background: #f6f4f2;
+    margin-top:50px;
 }
 @media screen and (min-width: 1200px) {
     .contact-page-section:before,
@@ -7391,7 +7401,7 @@ claim-statement-section
 }
 .claim-statement-section .statement-grids {
     padding: 15px 0 20px;
-    background: url("../images/service.jpg") center top/cover no-repeat fixed;
+    /* background: url("../images/service.jpg") center top/cover no-repeat fixed; */
     -webkit-box-shadow: 0pc 0.375pc 14.175pt 2.1px rgb(35 61 98 / 8%);
     box-shadow: 0px 0.375pc 18.9px 0.021875in rgb(35 61 98 / 8%);
 }
