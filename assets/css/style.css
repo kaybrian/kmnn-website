@@ -400,8 +400,8 @@ img {
 .section-title {
   margin-bottom: 1.25pc;
 }
-.howtocharge{
-  list-style:disc;
+.howtocharge {
+  list-style: disc;
 }
 
 .section-title > span,
@@ -1060,6 +1060,7 @@ img {
 .blog-sidebar .search-widget input:focus {
   border-top-color: var(--base-color);
 }
+
 .blog-sidebar .about-widget .img-holder img {
   border-radius: 50%;
 }
@@ -11528,9 +11529,15 @@ blog-single-section
 /* customs styles */
 .partner-link {
   transition: 0.5s ease;
-  color: white !important;
+  color: #3f4d5f !important;
   font-size: 16px;
+  font-weight: 600;
 }
 .partner-link :hover {
   transform: scale(1.1);
+}
+
+.recent-case-thumb .img-holder {
+  filter: grayscale(100%) !important;
+  display: none;
 }
